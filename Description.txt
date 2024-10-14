@@ -1,0 +1,54 @@
+# Online Shopping Session Data Description
+
+The **online_shopping_session_data.csv** dataset contains detailed information about individual shopping sessions on a website. Each session corresponds to a single user, and the dataset captures various aspects of their browsing behavior, including the types of pages visited, the time spent, and whether a purchase was made.
+
+## Column Descriptions:
+
+1. **SessionID**: 
+   - Unique identifier for each shopping session.
+
+2. **Administrative**: 
+   - The number of pages visited that are related to the customer’s account (e.g., login, profile settings).
+
+3. **Administrative_Duration**: 
+   - The total amount of time (in seconds) spent on administrative pages during the session.
+
+4. **Informational**: 
+   - The number of pages visited that are related to general website or company information (e.g., about us, policies).
+
+5. **Informational_Duration**: 
+   - The total amount of time (in seconds) spent on informational pages during the session.
+
+6. **ProductRelated**: 
+   - The number of pages visited that are related to the products available on the website.
+
+7. **ProductRelated_Duration**: 
+   - The total amount of time (in seconds) spent on product-related pages during the session.
+
+8. **BounceRates**: 
+   - The average bounce rate of pages visited by the customer during the session. (A bounce rate represents the percentage of visitors who leave the website after viewing only one page.)
+
+9. **ExitRates**: 
+   - The average exit rate of pages visited by the customer during the session. (An exit rate represents the percentage of people who exit the website after viewing a specific page.)
+
+10. **PageValues**: 
+    - The average value assigned to the pages visited by the customer during the session, based on the likelihood of leading to a purchase.
+
+11. **SpecialDay**: 
+    - Indicates how close the session date is to a special day (e.g., holiday). Values range between 0 and 1, where 1 represents the day closest to a special day.
+
+12. **Weekend**: 
+    - Binary indicator (0 or 1) of whether the session occurred on a weekend (1 = weekend, 0 = weekday).
+
+13. **Month**: 
+    - The month during which the session took place (e.g., January, February, etc.).
+
+14. **CustomerType**: 
+    - The type of customer during the session. Possible values:
+        - Returning_Customer
+        - New_Customer
+
+15. **Purchase**: 
+    - The target variable (class label) indicating whether the customer made a purchase during the session.
+        - 1 = Purchase made
+        - 0 = No purchase made
