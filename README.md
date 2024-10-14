@@ -30,13 +30,7 @@ Using statistics and probability techniques, this project aims to identify diffe
 **Hypothesis**: Returning customers have a higher purchase rate than new customers during November and December.
 
 - **Null Hypothesis (H₀)**: The purchase rate of returning customers is **equal to or less** than that of new customers.
-    \[
-    H_0: \mu_{\text{Returning}} \leq \mu_{\text{New}}
-    \]
 - **Alternative Hypothesis (H₁)**: The purchase rate of returning customers is **higher** than that of new customers.
-    \[
-    H_1: \mu_{\text{Returning}} > \mu_{\text{New}}
-    \]
 
 This hypothesis can be tested using a **proportion test** to compare the purchase rates between the two customer types. If the null hypothesis is rejected, it confirms that returning customers engage more during the busiest shopping months.
 
