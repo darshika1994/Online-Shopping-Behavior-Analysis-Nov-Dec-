@@ -1,4 +1,4 @@
-# Customer Behavior Analysis: Online Shopping Behavior Analysis (Nov-Dec)
+# Customer Behavior Analysis: Online Shopping (Nov-Dec)
 
 ## Project Overview
 
